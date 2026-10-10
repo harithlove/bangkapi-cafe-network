@@ -1,0 +1,881 @@
+{
+ "reviews_scraped": 578,
+ "reviews_cafes": 528,
+ "reviews_text": 376,
+ "cafes_all": 35,
+ "cafes_text": 31,
+ "five_star_share": 0.9069148936170213,
+ "five_star_n": 341,
+ "period": [
+  "2025-10-12",
+  "2026-10-07"
+ ],
+ "pre_nodes": 15,
+ "pre_edges": 84,
+ "nodes": 11,
+ "edges": 15,
+ "isolates": [
+  "bakery",
+  "coffee_body",
+  "food",
+  "parking"
+ ],
+ "generic_share": {
+  "tasty": 0.6170212765957447,
+  "good_generic": 0.5,
+  "seed_coffee": 0.601063829787234
+ },
+ "own": {
+  "bakery": {
+   "n": 105,
+   "shops_any": 16,
+   "shops2": 10,
+   "top": "RIN Cafe (ฤณ คาเฟ่)",
+   "top_n": 18,
+   "top_share": 0.17142857142857143
+  },
+  "food": {
+   "n": 66,
+   "shops_any": 16,
+   "shops2": 10,
+   "top": "SeoBel Cafe",
+   "top_n": 12,
+   "top_share": 0.18181818181818182
+  },
+  "service": {
+   "n": 122,
+   "shops_any": 25,
+   "shops2": 17,
+   "top": "SeoBel Cafe",
+   "top_n": 18,
+   "top_share": 0.14754098360655737
+  },
+  "matcha": {
+   "n": 60,
+   "shops_any": 12,
+   "shops2": 7,
+   "top": "ฮิบิ มัทฉะ คาเฟ่",
+   "top_n": 23,
+   "top_share": 0.38333333333333336
+  },
+  "ambience": {
+   "n": 129,
+   "shops_any": 21,
+   "shops2": 16,
+   "top": "SeoBel Cafe",
+   "top_n": 28,
+   "top_share": 0.21705426356589147
+  },
+  "chill": {
+   "n": 77,
+   "shops_any": 21,
+   "shops2": 14,
+   "top": "SeoBel Cafe",
+   "top_n": 15,
+   "top_share": 0.19480519480519481
+  },
+  "parking": {
+   "n": 29,
+   "shops_any": 14,
+   "shops2": 8,
+   "top": "SeoBel Cafe",
+   "top_n": 5,
+   "top_share": 0.1724137931034483
+  },
+  "cute": {
+   "n": 89,
+   "shops_any": 19,
+   "shops2": 13,
+   "top": "SeoBel Cafe",
+   "top_n": 13,
+   "top_share": 0.14606741573033707
+  },
+  "non_coffee": {
+   "n": 36,
+   "shops_any": 16,
+   "shops2": 10,
+   "top": "Sebastian’s Café",
+   "top_n": 5,
+   "top_share": 0.1388888888888889
+  },
+  "pet": {
+   "n": 23,
+   "shops_any": 7,
+   "shops2": 5,
+   "top": "Addict.co",
+   "top_n": 8,
+   "top_share": 0.34782608695652173
+  },
+  "price": {
+   "n": 58,
+   "shops_any": 21,
+   "shops2": 13,
+   "top": "nibb cafe (coffee matcha & more)",
+   "top_n": 10,
+   "top_share": 0.1724137931034483
+  },
+  "work_study": {
+   "n": 31,
+   "shops_any": 11,
+   "shops2": 4,
+   "top": "SeoBel Cafe",
+   "top_n": 15,
+   "top_share": 0.4838709677419355
+  },
+  "clean": {
+   "n": 19,
+   "shops_any": 9,
+   "shops2": 3,
+   "top": "SeoBel Cafe",
+   "top_n": 6,
+   "top_share": 0.3157894736842105
+  },
+  "coffee_body": {
+   "n": 19,
+   "shops_any": 11,
+   "shops2": 6,
+   "top": "In Good Hands Coffee & Bakery",
+   "top_n": 4,
+   "top_share": 0.21052631578947367
+  },
+  "photo": {
+   "n": 16,
+   "shops_any": 6,
+   "shops2": 3,
+   "top": "SeoBel Cafe",
+   "top_n": 8,
+   "top_share": 0.5
+  }
+ },
+ "seobel_corpus_share": 0.11436170212765957,
+ "pairs": {
+  "work_study|photo": {
+   "npmi": 0.5144829129142396,
+   "n": 9
+  },
+  "work_study|chill": {
+   "npmi": 0.46071832432339566,
+   "n": 23
+  },
+  "work_study|ambience": {
+   "npmi": 0.3346017394052591,
+   "n": 26
+  },
+  "work_study|matcha": {
+   "npmi": 0.22628027194983577,
+   "n": 11
+  },
+  "chill|ambience": {
+   "npmi": 0.43384791110531495,
+   "n": 59
+  },
+  "service|cute": {
+   "npmi": 0.28469704177314686,
+   "n": 51
+  },
+  "pet|cute": {
+   "npmi": 0.31460391352932104,
+   "n": 15
+  }
+ },
+ "no_seobel": {
+  "work_study|photo": {
+   "npmi": 0.4362907608398768,
+   "n": 3
+  },
+  "work_study|chill": {
+   "npmi": 0.38305570602396516,
+   "n": 11
+  },
+  "work_study|ambience": {
+   "npmi": 0.2724272198012214,
+   "n": 12
+  },
+  "work_study|matcha": {
+   "npmi": 0.2229587167402775,
+   "n": 6
+  },
+  "chill|ambience": {
+   "npmi": 0.43595243408518136,
+   "n": 45
+  },
+  "service|cute": {
+   "npmi": 0.24626376992098434,
+   "n": 40
+  },
+  "pet|cute": {
+   "npmi": 0.33868834764499933,
+   "n": 15
+  }
+ },
+ "cap15": {
+  "work_study|photo": {
+   "mean": 0.4675858805629674,
+   "p5": 0.30640964280089233
+  },
+  "work_study|chill": {
+   "mean": 0.41994746407038913,
+   "p5": 0.35774009621152414
+  },
+  "work_study|ambience": {
+   "mean": 0.327898481490922,
+   "p5": 0.27564576527065704
+  },
+  "work_study|matcha": {
+   "mean": 0.24422723556804282,
+   "p5": 0.11913846296787259
+  },
+  "chill|ambience": {
+   "mean": 0.43335105144155345,
+   "p5": 0.38943606557833355
+  },
+  "service|cute": {
+   "mean": 0.25909206403818474,
+   "p5": 0.211703813892365
+  },
+  "pet|cute": {
+   "mean": 0.304149276997593,
+   "p5": 0.2311307244484733
+  }
+ },
+ "cap15_n": 245,
+ "cutoff_sweep": {
+  "0.15": {
+   "nodes": 15,
+   "edges": 24,
+   "work_nb": [
+    "ambience",
+    "chill",
+    "matcha",
+    "photo"
+   ]
+  },
+  "0.2": {
+   "nodes": 15,
+   "edges": 15,
+   "work_nb": [
+    "ambience",
+    "chill",
+    "matcha",
+    "photo"
+   ]
+  },
+  "0.25": {
+   "nodes": 15,
+   "edges": 9,
+   "work_nb": [
+    "ambience",
+    "chill",
+    "photo"
+   ]
+  },
+  "0.3": {
+   "nodes": 15,
+   "edges": 6,
+   "work_nb": [
+    "ambience",
+    "chill",
+    "photo"
+   ]
+  }
+ },
+ "raw_top_incl_generic": [
+  [
+   "seed_coffee",
+   947
+  ],
+  [
+   "tasty",
+   864
+  ],
+  [
+   "good_generic",
+   786
+  ],
+  [
+   "ambience",
+   633
+  ]
+ ],
+ "raw_top_specific": [
+  [
+   "ambience",
+   129
+  ],
+  [
+   "service",
+   122
+  ],
+  [
+   "bakery",
+   105
+  ],
+  [
+   "cute",
+   89
+  ],
+  [
+   "chill",
+   77
+  ]
+ ],
+ "npmi_wdeg": [
+  [
+   "photo",
+   1.6091486559975605
+  ],
+  [
+   "work_study",
+   1.5360832485927303
+  ],
+  [
+   "chill",
+   1.3899596686306612
+  ],
+  [
+   "ambience",
+   1.3270633931557911
+  ],
+  [
+   "cute",
+   1.0509703758873221
+  ],
+  [
+   "matcha",
+   0.7221776521452642
+  ],
+  [
+   "pet",
+   0.5640105504685374
+  ],
+  [
+   "service",
+   0.28469704177314686
+  ],
+  [
+   "price",
+   0.2494066369392164
+  ],
+  [
+   "non_coffee",
+   0.2427228625152475
+  ],
+  [
+   "clean",
+   0.22467508327907815
+  ]
+ ],
+ "low_n": 20,
+ "low_service": 12,
+ "low_chain": 10,
+ "betweenness": [
+  [
+   "cute",
+   0.5111111111111112
+  ],
+  [
+   "photo",
+   0.37777777777777777
+  ],
+  [
+   "matcha",
+   0.2
+  ],
+  [
+   "chill",
+   0.2
+  ],
+  [
+   "pet",
+   0.2
+  ],
+  [
+   "ambience",
+   0.13333333333333333
+  ],
+  [
+   "work_study",
+   0.06666666666666667
+  ],
+  [
+   "service",
+   0.0
+  ],
+  [
+   "non_coffee",
+   0.0
+  ],
+  [
+   "price",
+   0.0
+  ],
+  [
+   "clean",
+   0.0
+  ]
+ ],
+ "boot_cafe": {
+  "work_study|photo": {
+   "lo": 0.3403448088262794,
+   "hi": 0.692729992732316,
+   "undefined": 0.116
+  },
+  "work_study|chill": {
+   "lo": 0.25429628668799215,
+   "hi": 0.5651031976122299,
+   "undefined": 0.0
+  },
+  "work_study|ambience": {
+   "lo": 0.1558668738725296,
+   "hi": 0.42251252062732625,
+   "undefined": 0.0
+  },
+  "chill|ambience": {
+   "lo": 0.3416449797327977,
+   "hi": 0.5357749802073426,
+   "undefined": 0.0
+  }
+ },
+ "sentence_window": {
+  "work_study|photo": {
+   "npmi": 0.33342380587810666,
+   "n": 3
+  },
+  "work_study|chill": {
+   "npmi": 0.5176755869941773,
+   "n": 20
+  },
+  "work_study|ambience": {
+   "npmi": 0.09678388300034309,
+   "n": 6
+  },
+  "chill|ambience": {
+   "npmi": 0.33096207350531526,
+   "n": 34
+  }
+ },
+ "sentence_n": 1614,
+ "sentence_edges": 9,
+ "edges_shared": 8,
+ "rating_check": {
+  "n_ws": 31,
+  "n_other": 264,
+  "atm_ws": 5.0,
+  "atm_other": 4.799242424242424,
+  "p_perm": 0.02135,
+  "noise_recorded": 5,
+  "noise_quiet": 5
+ },
+ "bip": {
+  "cafes": 13,
+  "cafe_reviews": 321,
+  "cafes_dropped": 16,
+  "aspects": 15,
+  "nodes": 28,
+  "edges": 23,
+  "all_pairs": 149,
+  "isolated_cafes": [
+   "RIN Cafe (ฤณ คาเฟ่)"
+  ],
+  "edges_q05": 14,
+  "edges_stable80": 9,
+  "no_seobel_work": {
+   "nibb cafe (coffee matcha & more)": {
+    "npmi": 0.1860205755009638,
+    "n": 3
+   },
+   "Sebastian’s Café": {
+    "npmi": 0.3225157928872722,
+    "n": 4
+   }
+  },
+  "no_seobel_chill_best": [
+   "ร้านกาแฟ No.24 Retro Cafe",
+   0.2676219613047963
+  ],
+  "layout": {
+   "seed": 295,
+   "score": 0
+  }
+ },
+ "bip_cafes": {
+  "ฮิบิ มัทฉะ คาเฟ่": 44,
+  "SeoBel Cafe": 43,
+  "RIN Cafe (ฤณ คาเฟ่)": 37,
+  "Addict.co": 34,
+  "nibb cafe (coffee matcha & more)": 26,
+  "In Good Hands Coffee & Bakery": 25,
+  "Café Amazon": 22,
+  "Woodwork space": 21,
+  "Sebastian’s Café": 20,
+  "Ev Cafe": 16,
+  "บริโอเช่ Brioche coffee & bakery": 11,
+  "Pixie in the garden Cafe": 11,
+  "ร้านกาแฟ No.24 Retro Cafe": 11
+ },
+ "bip_edges": [
+  {
+   "cafe": "SeoBel Cafe",
+   "aspect": "work_study",
+   "npmi": 0.44775247177024025,
+   "n": 15,
+   "q": 4.055409839309506e-06,
+   "freq": 0.998,
+   "lo": 0.2949477651979649,
+   "hi": 0.5846834368159891
+  },
+  {
+   "cafe": "ฮิบิ มัทฉะ คาเฟ่",
+   "aspect": "matcha",
+   "npmi": 0.42466315353752504,
+   "n": 23,
+   "q": 2.1652110687496153e-07,
+   "freq": 0.9995,
+   "lo": 0.2942679953171176,
+   "hi": 0.5375922013995609
+  },
+  {
+   "cafe": "SeoBel Cafe",
+   "aspect": "photo",
+   "npmi": 0.38316501073391374,
+   "n": 8,
+   "q": 0.0030505820634967916,
+   "freq": 0.97,
+   "lo": 0.18634784408398047,
+   "hi": 0.5316763516478012
+  },
+  {
+   "cafe": "nibb cafe (coffee matcha & more)",
+   "aspect": "pet",
+   "npmi": 0.3719949676171407,
+   "n": 7,
+   "q": 0.006501984742238356,
+   "freq": 0.936,
+   "lo": 0.1313628065692564,
+   "hi": 0.5475824726319569
+  },
+  {
+   "cafe": "Sebastian’s Café",
+   "aspect": "clean",
+   "npmi": 0.3700925540863141,
+   "n": 5,
+   "q": 0.024685845757992722,
+   "freq": 0.8905,
+   "lo": 0.10235224620877517,
+   "hi": 0.5624724513352106
+  },
+  {
+   "cafe": "Addict.co",
+   "aspect": "pet",
+   "npmi": 0.34990241515054277,
+   "n": 8,
+   "q": 0.006501984742238356,
+   "freq": 0.927,
+   "lo": 0.13458716170738205,
+   "hi": 0.5090332545610925
+  },
+  {
+   "cafe": "Sebastian’s Café",
+   "aspect": "food",
+   "npmi": 0.3233851637363344,
+   "n": 11,
+   "q": 0.0030505820634967916,
+   "freq": 0.9405,
+   "lo": 0.16574109376134538,
+   "hi": 0.4555784819950095
+  },
+  {
+   "cafe": "บริโอเช่ Brioche coffee & bakery",
+   "aspect": "bakery",
+   "npmi": 0.28800994081529413,
+   "n": 9,
+   "q": 0.006384959308403711,
+   "freq": 0.9365,
+   "lo": 0.1664457954590534,
+   "hi": 0.37219211933804286
+  },
+  {
+   "cafe": "In Good Hands Coffee & Bakery",
+   "aspect": "coffee_body",
+   "npmi": 0.25368565230963874,
+   "n": 4,
+   "q": 0.16498698614523233,
+   "freq": 0.6575,
+   "lo": -0.010435023780199683,
+   "hi": 0.45188227035952977
+  },
+  {
+   "cafe": "nibb cafe (coffee matcha & more)",
+   "aspect": "price",
+   "npmi": 0.2518978956520121,
+   "n": 10,
+   "q": 0.032087915454483314,
+   "freq": 0.732,
+   "lo": 0.08123043141437666,
+   "hi": 0.40112252287031497
+  },
+  {
+   "cafe": "SeoBel Cafe",
+   "aspect": "ambience",
+   "npmi": 0.24670244264777677,
+   "n": 28,
+   "q": 0.0005745484504321143,
+   "freq": 0.8255,
+   "lo": 0.14628767462388906,
+   "hi": 0.34422280696056834
+  },
+  {
+   "cafe": "SeoBel Cafe",
+   "aspect": "clean",
+   "npmi": 0.24546914632577024,
+   "n": 6,
+   "q": 0.09630386832126213,
+   "freq": 0.674,
+   "lo": 0.005408799410192389,
+   "hi": 0.41057089516755907
+  },
+  {
+   "cafe": "nibb cafe (coffee matcha & more)",
+   "aspect": "matcha",
+   "npmi": 0.2425509108665991,
+   "n": 10,
+   "q": 0.0363119180598041,
+   "freq": 0.7015,
+   "lo": 0.07190721569681552,
+   "hi": 0.38328041026520215
+  },
+  {
+   "cafe": "ร้านกาแฟ No.24 Retro Cafe",
+   "aspect": "chill",
+   "npmi": 0.23675404622939994,
+   "n": 6,
+   "q": 0.09313416143192184,
+   "freq": 0.659,
+   "lo": 0.036423039956017166,
+   "hi": 0.3746110764093309
+  },
+  {
+   "cafe": "Café Amazon",
+   "aspect": "service",
+   "npmi": 0.23050345182952006,
+   "n": 15,
+   "q": 0.006501984742238356,
+   "freq": 0.708,
+   "lo": 0.11554801252450042,
+   "hi": 0.3252210936792121
+  },
+  {
+   "cafe": "Woodwork space",
+   "aspect": "ambience",
+   "npmi": 0.22762552790570154,
+   "n": 15,
+   "q": 0.006501984742238356,
+   "freq": 0.715,
+   "lo": 0.11981490740937195,
+   "hi": 0.32225220891947093
+  },
+  {
+   "cafe": "Woodwork space",
+   "aspect": "cute",
+   "npmi": 0.2249134941584449,
+   "n": 11,
+   "q": 0.03612622533909694,
+   "freq": 0.635,
+   "lo": 0.07221517417967413,
+   "hi": 0.35299346979865326
+  },
+  {
+   "cafe": "Sebastian’s Café",
+   "aspect": "non_coffee",
+   "npmi": 0.22216255693473774,
+   "n": 5,
+   "q": 0.17288050244827294,
+   "freq": 0.575,
+   "lo": -0.016531839161581154,
+   "hi": 0.40801800662855925
+  },
+  {
+   "cafe": "In Good Hands Coffee & Bakery",
+   "aspect": "parking",
+   "npmi": 0.22056065865048655,
+   "n": 5,
+   "q": 0.17460433158293334,
+   "freq": 0.564,
+   "lo": -0.02892948369963517,
+   "hi": 0.40810877864408085
+  },
+  {
+   "cafe": "Pixie in the garden Cafe",
+   "aspect": "food",
+   "npmi": 0.2202416050117517,
+   "n": 5,
+   "q": 0.16126143914498822,
+   "freq": 0.567,
+   "lo": 0.0006700152646821651,
+   "hi": 0.38175621097756474
+  },
+  {
+   "cafe": "ร้านกาแฟ No.24 Retro Cafe",
+   "aspect": "non_coffee",
+   "npmi": 0.21668230924774487,
+   "n": 3,
+   "q": 0.3168668652425051,
+   "freq": 0.56,
+   "lo": -0.01785828437251962,
+   "hi": 0.4138728662199578
+  },
+  {
+   "cafe": "Ev Cafe",
+   "aspect": "price",
+   "npmi": 0.21468183801250515,
+   "n": 6,
+   "q": 0.14860351433455818,
+   "freq": 0.548,
+   "lo": 0.0013996329487300301,
+   "hi": 0.38104672008045365
+  },
+  {
+   "cafe": "nibb cafe (coffee matcha & more)",
+   "aspect": "photo",
+   "npmi": 0.20648332662197935,
+   "n": 3,
+   "q": 0.35277920979875893,
+   "freq": 0.497,
+   "lo": -0.027273515040765424,
+   "hi": 0.41340168536353017
+  }
+ ],
+ "bip_aspects": {
+  "ambience": {
+   "n": 129,
+   "linked": 2,
+   "best": "SeoBel Cafe",
+   "best_npmi": 0.24670244264777677,
+   "best_n": 28
+  },
+  "bakery": {
+   "n": 105,
+   "linked": 1,
+   "best": "บริโอเช่ Brioche coffee & bakery",
+   "best_npmi": 0.28800994081529413,
+   "best_n": 9
+  },
+  "chill": {
+   "n": 77,
+   "linked": 1,
+   "best": "ร้านกาแฟ No.24 Retro Cafe",
+   "best_npmi": 0.23675404622939994,
+   "best_n": 6
+  },
+  "clean": {
+   "n": 19,
+   "linked": 2,
+   "best": "Sebastian’s Café",
+   "best_npmi": 0.3700925540863141,
+   "best_n": 5
+  },
+  "coffee_body": {
+   "n": 19,
+   "linked": 1,
+   "best": "In Good Hands Coffee & Bakery",
+   "best_npmi": 0.25368565230963874,
+   "best_n": 4
+  },
+  "cute": {
+   "n": 89,
+   "linked": 1,
+   "best": "Woodwork space",
+   "best_npmi": 0.2249134941584449,
+   "best_n": 11
+  },
+  "food": {
+   "n": 66,
+   "linked": 2,
+   "best": "Sebastian’s Café",
+   "best_npmi": 0.3233851637363344,
+   "best_n": 11
+  },
+  "matcha": {
+   "n": 60,
+   "linked": 2,
+   "best": "ฮิบิ มัทฉะ คาเฟ่",
+   "best_npmi": 0.42466315353752504,
+   "best_n": 23
+  },
+  "non_coffee": {
+   "n": 36,
+   "linked": 2,
+   "best": "Sebastian’s Café",
+   "best_npmi": 0.22216255693473774,
+   "best_n": 5
+  },
+  "parking": {
+   "n": 29,
+   "linked": 1,
+   "best": "In Good Hands Coffee & Bakery",
+   "best_npmi": 0.22056065865048655,
+   "best_n": 5
+  },
+  "pet": {
+   "n": 23,
+   "linked": 2,
+   "best": "nibb cafe (coffee matcha & more)",
+   "best_npmi": 0.3719949676171407,
+   "best_n": 7
+  },
+  "photo": {
+   "n": 16,
+   "linked": 2,
+   "best": "SeoBel Cafe",
+   "best_npmi": 0.38316501073391374,
+   "best_n": 8
+  },
+  "price": {
+   "n": 58,
+   "linked": 2,
+   "best": "nibb cafe (coffee matcha & more)",
+   "best_npmi": 0.2518978956520121,
+   "best_n": 10
+  },
+  "service": {
+   "n": 122,
+   "linked": 1,
+   "best": "Café Amazon",
+   "best_npmi": 0.23050345182952006,
+   "best_n": 15
+  },
+  "work_study": {
+   "n": 31,
+   "linked": 1,
+   "best": "SeoBel Cafe",
+   "best_npmi": 0.44775247177024025,
+   "best_n": 15
+  }
+ },
+ "bip_sweep": {
+  "0.15": {
+   "edges": 33,
+   "seobel_work": true,
+   "work_linked": 2,
+   "chill_linked": 2
+  },
+  "0.2": {
+   "edges": 23,
+   "seobel_work": true,
+   "work_linked": 1,
+   "chill_linked": 1
+  },
+  "0.25": {
+   "edges": 10,
+   "seobel_work": true,
+   "work_linked": 1,
+   "chill_linked": 0
+  },
+  "0.3": {
+   "edges": 7,
+   "seobel_work": true,
+   "work_linked": 1,
+   "chill_linked": 0
+  }
+ }
+}
